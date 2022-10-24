@@ -2,7 +2,7 @@ FROM openjdk:8 AS BUILD_IMAGE
 RUN apt update && apt install maven -y
 RUN git clone -b cicd-jenkins https://github.com/Hemanth0467/vprofile-project.git
 WORKDIR vprofile-repo
-RUN cd vprofile-repo && mvn install
+RUN mvn install
 
 FROM tomcat:8-jre11
 
