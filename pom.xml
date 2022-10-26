@@ -4,7 +4,7 @@
     <groupId>com.tcs</groupId>
     <artifactId>vprofile</artifactId>
     <packaging>war</packaging>
-    <version>4.2</version>
+    <version>4.3</version>
     <name>tcs_VProfile_Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
