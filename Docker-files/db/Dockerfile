@@ -1,4 +1,5 @@
 FROM mysql:8.0.33
+FROM nginx:latest
 LABEL "Project"="Vprofile"
 LABEL "Author"="Imran"
 
